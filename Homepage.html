@@ -1,0 +1,102 @@
+<DOCTYPE html>
+<HTML>
+
+<Head>
+    <title> Homepage </title>
+
+</Head>
+
+<Body>
+    
+<h1> Let's try javascript </h1> 
+    
+<h2 id = "r_list"> </h2>
+    
+<button onclick="myFunction()">Hungry?</button>
+<h3 id = "demo"> </h3> <!--This prints the result of hungry?-->
+    
+<button Id = "meal?" style ="display:none" onclick="mealFunction()"> Meal? </button>   
+<p Id="meal"> </p> <!-- prints result of meal? -->
+    
+<button id = "speed?" style="display:none" onclick="speedFunction()"> Fast food or sit down? </button>
+<p id="speed"> </p>
+    
+<!-- using multiple buttons: each answer has a different button, the button could edit the list it is given-->
+    
+<script>
+    var original_list = ["Thinking Cup","Teatro Restaurant", "Sal's Pizza", "Yvonne's", "Jm Curley", "Legal Crossing", "McDonald's", "Ostra", "Fajitas & 'Ritas", "Subway", "Sam LaGrassa's", "Herrera's Mexican Grill", "Caffe Nero"];
+    //a function to check if the user wants to eat
+    function myFunction() {
+    var text;
+    var hunger = prompt("Are you hungry?", "Yes");
+            
+    switch(hunger) {
+        case "Yes":
+            text = "Let's find food";
+            document.getElementById("r_list").innerHTML = original_list
+            document.getElementById("meal?").style.display ='block'
+            break;
+        case "No":
+            text = "Ok";
+            break;       
+        default:
+            text = "Something went wrong";
+            }
+    document.getElementById("demo").innerHTML = text;
+    }
+</script> 
+     
+<script> 
+    //a function to get what meal the user wants to go to
+    function mealFunction() {
+    var text;
+    var meal = prompt("What meal? Choose from breakfast, lunch, dinner, or a snack", "Breakfast");
+            
+    switch(meal) {
+        case "Breakfast":
+            text = "Wake up and smell the coffee";
+            document.getElementById("speed?").style.display ='block'
+            break;
+        case "Lunch":
+            text = "Let's go to lunch!";
+            document.getElementById("speed?").style.display ='block'
+            break;
+        case "Dinner":
+            text = "Dig into dinner";
+            document.getElementById("speed?").style.display ='block'
+            break;
+        case "Snack":
+            text = "Time for something sweet to eat";
+            document.getElementById("speed?").style.display ='block'
+            break;
+        default:
+            text = "Something went wrong";
+        }
+        
+    document.getElementById("meal").innerHTML = text;
+    }
+</script>
+    
+<script>
+    //a function to check if the user wants to eat
+    function speedFunction() {
+    var text;
+    var speed = prompt("Would you like drive though or sit down?", "Drive through");
+            
+    switch(speed) {
+        case "Drive through":
+            text = "Let's find fast food"; //document.getElementById("meal?").style.display ='block'
+            break;
+        case "Sit down":
+            text = "Slow and steady wins the race";
+            break;       
+        default:
+            text = "Something went wrong";
+            }
+    document.getElementById("speed").innerHTML = text;
+    }
+</script> 
+    
+</Body>
+
+</HTML>
