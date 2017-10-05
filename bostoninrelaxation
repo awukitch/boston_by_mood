@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<HTML>
+
+<Head> 
+    <title> mood </title>
+    <link rel="stylesheet" href="style.css"> 
+</Head> 
+
+<Body> 
+    
+    <ul class="nav navbar-nav navbar-right"><li><a href ="contemplativemood"> Home </a></li></ul>
+    <ul class="nav navbar-nav navabr-right"><li><a href = "Moods"> Moods </a></li></ul>
+    <H1> Boston in Contemplation </H1>
+    <H2> 
+        
+        Looking for a place to study, think, or just wander? Boston is the perfect escape, with its many hidden nooks including (but of course not limited to) cozy coffeshops, unique international bakeries, and independent bookshops. Bring your headphones, grab a coffee, and see where these routes take you~ </H2> 
+    <p> </p>
+    
+    
+</Body>
+    
+</HTML>
