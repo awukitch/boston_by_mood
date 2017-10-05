@@ -18,6 +18,30 @@
 <button Id = "meal?" style ="display:none" onclick="mealFunction()"> Meal? </button>   
 <p Id="meal"> </p> <!-- prints result of meal? -->
     
+<!-- New meal options button things -->
+<button id="Breakfast" onclick="breakfastFunction(original_list)"> Breakfast </button>
+<button id="Lunch" onclick="lunchFunction()"> Lunch </button>
+<button id="Dinner" onclick="dinnerFunction()"> Dinner </button>
+<button id="Snack" onlcik="snackFunction()"> Snack </button>
+<p id="options"> Food options </p>
+    
+<script>
+     var original_list = ["Thinking Cup","Teatro Restaurant", "Sal's Pizza", "Yvonne's", "Jm Curley", "Legal Crossing", "McDonald's", "Ostra", "Fajitas & 'Ritas", "Subway", "Sam LaGrassa's", "Herrera's Mexican Grill", "Caffe Nero"];
+    var breakfast_list = ["Thinking Cup", "McDonald's", "Caffe Nero"]
+    var lunch_list = ["Teatro Restaurant", "Sal's Pizza", "Yvonne's", "McDonald's"]
+    var dinner_list = ["Fajitas & 'Ritas", "Subway", "Sal's Pizza", "Herrera's Mexican Grill", "Chille's"]
+    function breakfastFunction(list) {
+        var text = "";
+        var i;
+        for (i = 0; i<list.length; i++){text += list[i]}
+            //if the thing is not in the list then pop it
+            list.pop()
+        document.getElementById("options").innerHTML = text;
+    }
+    
+    
+    
+    
 <button id = "speed?" style="display:none" onclick="speedFunction()"> Fast food or sit down? </button>
 <p id="speed"> </p>
     
