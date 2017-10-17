@@ -1,0 +1,24 @@
+h1 {
+   text-align: center;
+    color: white;
+    font-size: 53;
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #cc3e30;
+    }
+
+
+.padding{
+    border: 5px solid #6b4f52;
+    background-color: #d58b30;
+    padding: 50px 30px 50px 80px;
+    }
+
+.firstimage {
+    display: block;
+    margin-top: 0px;
+    width: 1200;
+    }
