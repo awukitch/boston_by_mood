@@ -1,24 +1,26 @@
 h1 {
    text-align: center;
-    color: white;
+    color: #E4001B;
     font-size: 53;
     font-family: cursive;
 }
 
 body {
     margin: 0;
-    background-color: #cc3e30;
+    background-color: #A5D1F3;
+    padding: 5% 5% 5% 5%;
     }
 
 
 .padding{
-    border: 5px solid #6b4f52;
-    background-color: #d58b30;
-    padding: 50px 30px 50px 80px;
+    border: 5px solid #606060;
+    background-color: #D0EAFF;
+    padding: 0% 2%;
     }
 
-.firstimage {
-    display: block;
-    margin-top: 0px;
-    width: 1200;
-    }
+/*#6194BC
+#A5D1F3
+#D0EAFF
+#E4001B
+#ECECEC
+#606060*/
