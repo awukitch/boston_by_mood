@@ -27,7 +27,126 @@ body {
 	text-align: center;
 }
 
+/*Page buttons formatting*/
+.buttonbio {
+    background: /*url(https://www.cff.org/uploadedImages/Content/What_is_CF/Genetics/genetics-blue-small.jpg) no-repeat bottom;*/Green;
+    border: none;
+    color: white;
+   
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    margin: 1% 1%;
+    height: 400px;
+    cursor: pointer;
+     background-color: gr; /* Green */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttondeal{
+    background: url(https://menstrualcupreviews.net/images/blog/tampons-or-pads1.jpg) no-repeat bottom; /* Green */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1% 1%;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+     background-color: #4CAF50; /* Green */
 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+ .buttoncramps{
+    background: url(https://images.agoramedia.com/everydayhealth/gcms/10-Ways-to-Relieve-Menstrual-Cramps-RM-722x406.jpg) no-repeat bottom; /* Green */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    margin: 1% 1%;
+    height: 400px;
+    cursor: pointer;
+     background-color: #4CAF50; /* Green */
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonproblems{
+    background: url(http://www.thehindu.com/migration_catalog/article12532040.ece/alternates/FREE_660/19SOMANEW6); /* Green */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    margin: 1% 1%;
+    height: 400px;
+    cursor: pointer;
+     background-color: #4CAF50; /* Green */
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonmemes{
+    background: url(https://i.pinimg.com/originals/29/29/e4/2929e470710350b12d9b3a55d724d3d7.jpg); /* Green */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    margin:1% 1%;
+    height: 400px;
+    cursor: pointer;
+    background-color: #4CAF50;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonsources{
+    background: url(https://www.setthings.com/wp-content/uploads/2014/05/Internet1.jpg); /* Green */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 400px;
+    margin: 1% 1%;
+    height: 400px;
+    cursor: pointer;
+    background-color: #4CAF50;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 /*#6194BC
 #A5D1F3
 #D0EAFF
