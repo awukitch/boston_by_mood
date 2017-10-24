@@ -29,7 +29,7 @@ body {
 
 /*Page buttons formatting*/
 .button {
-    background: #6194BC;
+    background: #6194BC; /* can put images as backgrounds */
     border: none;
     color: #ECECEC;
    
