@@ -3,7 +3,14 @@ h1 {
     color: #E4001B;
     font-size: 53;
     font-family: cursive;
+    
 }
+h3 {
+   text-align: center;
+    color: #606060;
+    font-family: cursive;
+    }
+
 h2 {
 	color: #606060;
 	font-family: sans-serif;
