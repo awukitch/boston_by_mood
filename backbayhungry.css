@@ -1,0 +1,53 @@
+h1 {
+    
+    font-family: "Raleway", serif;
+    color: darkslategray;
+    margin: 150px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50;
+    font-variant: normal;
+    
+}
+
+h2 {
+    font-family: "Raleway", serif;
+    color: ;
+    text-align: center;
+    font-weight; 550;
+    font-size: 30;
+    font-variant: normal;
+
+}
+
+.button { 
+    background: "https://z2photorankmedia-a.akamaihd.net/media/z/m/y/zmysn74/normal.jpg";
+    border: none;
+    padding: 2% 2%;
+    float: center;
+    text-align: left;
+    width: 50%;
+    margin: 10%;
+    cursor: pointer;
+
+} 
+
+.buttondessert {
+    background: url(https://i.pinimg.com/736x/bc/ea/ab/bceaaba14eebea0d16c7c647c7832f0b--lady-m-nyc-mille-crepe.jpg) no-repeat bottom; /* Green */
+    border: none;
+    color: black;
+   
+    padding: 2% 2%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 350px;
+    margin: 10% 10%;
+    height: 450px;
+    cursor: pointer;
+     background-color: gr; /* Green */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
