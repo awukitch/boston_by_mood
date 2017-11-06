@@ -1,0 +1,169 @@
+h1 {
+    
+    font-family: "Raleway", serif;
+    font-style: normal;
+    color: darkslategray;
+    margin-left: 5.5%;
+    text-align: left;
+    font-weight: 100;
+    font-size: 70;
+    font-variant: normal;
+    
+}
+
+h2 {
+    font-family: "Raleway", serif;
+    font-style: italic;
+    color: grey;
+    margin-left: 5.5%;
+    text-align: left;
+    font-weight: 100;
+    font-size: 40;
+    font-variant: normal;
+
+}
+
+
+/** food category image buttons **/ 
+
+.boxed, .boxed2, .boxed3, .boxed4 {
+    margin-top: 40%;
+    margin-left: 27%;
+    height: 35;
+    width: 135;
+    background-color: white;
+    opacity: .9;
+}
+.buttonbb {
+    background: url(https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/22069294_1123378794461529_3513155206562971648_n.jpg) no-repeat bottom;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 17px;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonhy {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/95/8a/37/958a37d98905981e77ea51ccdb04f3cb.jpg) no-repeat bottom;
+    opacity:.8;
+    border: none;   
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    font-size: 17px;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 18%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonne {
+    background: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c0.135.1080.1080/21576593_281350559034864_7873717351936425984_n.jpg?ig_cache_key=MTYwMjk1Nzg5Nzk2NDYxNTI3MA%3) no-repeat top;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    font-size: 17px;
+    width: 350px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonss {
+    background: url(https://dessertsurveillance.files.wordpress.com/2015/03/union-square-donuts-box-and-coffee.jpg?w=580&h=580) no-repeat top;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left; 
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    font-size: 17px;
+    width: 350px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 18%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.dropbutton {
+    background-color: white;
+    border: none;
+    font-size: 20;
+    cursor: pointer;
+}
+
+.dropdown { 
+    position: relative;
+    display: inline-block;
+}
+
+.menulinks {
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+.menulinks a {
+    color: black;
+    display: block;
+    font-family: "Raleway", sans-serif;
+}
+
+.menulinks a:hover {
+    background-color: lightgray;
+}
+
+.dropdown:hover .menulinks {
+    display: block;
+}
+    
+.dropdown:hover .dropbutton {
+    background-color: white;
+}
