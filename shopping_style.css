@@ -39,6 +39,12 @@ button.accordion {
     transition: 0.4s;
 }
 
+.prudential{
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/3/37/Prudential_Center_-_Boston%2C_MA_-_DSC03973.JPG);
+	background-position: 50%, 100%;
+	background-repeat: space;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: 246636;
