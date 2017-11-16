@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<HTML>
+    
+<Head>
+    <title>Backbay Tourist Attractions</title>
+    <link rel="stylesheet" href="shopping_style.css">
+    </Head>
+    
+<Body>
+
+	<h1> Backbay Tourist </h1>
+	<p> Let's go sight seeing</p>
+ 
+	<div><center>
+	<!-- Accordian folder-->
+		
+	<button class="accordion prudential">Boyolston Street
+		</button>
+
+	<div class="panel">	
+		<img src="https://thumbnails.trvl-media.com/v4DAsXmAo30UUBsFAUznvCYiJ54=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/178239/Copley-Square-21019.jpg" style="width:30%;float:right;padding:2%">
+		<center><p>Address: 800 Boylston St, Boston, MA 02199 </p>
+		<ul><a href="https://www.google.com/maps/dir//800+Boylston+St,+Boston,+MA+02199/@42.346516,-71.08385,17z/data=!4m16!1m7!3m6!1s0x89e37a103d7cb92f:0xd6dd07d78b9384c0!2s800+Boylston+St,+Boston,+MA+02199!3b1!8m2!3d42.346516!4d-71.08385!4m7!1m0!1m5!1m1!1s0x89e37a103d7cb92f:0xd6dd07d78b9384c0!2m2!1d-71.08385!2d42.346516"> Link to google maps: </a></ul></center>
+		<h2> Popular spots </h2>
+		
+		<h3> Spot 1 Name</h3>
+			<ul>Testing the look of different lengths of descriptions</ul>
+			<ul> link to their site</ul>
+		<h3> Spot 2 Name</h3>
+			<ul> I think I like this and how everything looks together. Maybe change colors based on what others think. Hint for your input here :) </ul>
+			<ul> link to their site</ul>
+		<h3> Spot 3 Name</h3>
+			<ul> Mini description </ul>
+			<ul> link to their site</ul>
+	</div>
+		
+	<p> </p>
+	<button class="accordion">Boston Commons</button>
+	<div class="panel">
+  	<p>Address: some place </p>
+		<ul><a href=#> Link to google maps: </a></ul>
+		<h2> Popular Spots </h2>
+		<h3> Spot 1 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+		<h3> Spot 2 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+		<h3> Spot 3 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+	</div>
+
+	<p> </p>
+	<button class="accordion">Group Activity Tours </button>
+	<div class="panel">
+		<p>Address: some place </p>
+		<ul><a href=#> Link to google maps: </a></ul>
+		<h2> Popular Spots </h2>
+		<h3> Spot 1 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+		<h3> Spot 2 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+		<h3> Spot 3 Name</h3>
+		<ul> Mini description </ul>
+		<ul> link to their site</ul>
+	</div>
+	</center>
+		
+<!--the javascript to get the accordian buttons to open and close -->
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+    	acc[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class, to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        	if (panel.style.display === "block") {
+            	panel.style.display = "none";
+        	} else {
+				panel.style.display = "block";
+        	}
+    	}
+	}	
+</script>
+</div>
+</Body>    
+    
+</HTML>
