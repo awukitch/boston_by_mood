@@ -1,0 +1,114 @@
+body {
+    margin-bottom: 10%;
+}
+
+.logo {
+
+    background-color: white;
+    border: none;
+    border-width: thin;
+    width: 89%;
+    
+}
+h1, h2, h3 {
+    
+    font-family: "Raleway", serif;
+    text-align: left;
+    font-weight: 100;
+    font-variant: normal;
+    
+}
+
+h1 { 
+    color: darkslategray;
+    font-size: 70;
+    margin-left: 5.5%;
+}
+
+h2 {
+    font-style:italic;
+    color: gray;
+    font-size: 40;
+    margin-left: 5.5%;
+    margin-bottom: 8%;
+}
+
+h3 { 
+    font-variant: small-caps;
+    color: ;
+    font-size: 40;
+    text-align: Center;
+    /**margin-left: 5.5%;**/
+    margin-bottom: 10%;
+}
+
+
+.dropbutton {
+    background-color: white;
+    border: none;
+    font-size: 20;
+    cursor: pointer;
+}
+
+.dropdown { 
+    position: relative;
+    display: inline-block;
+}
+
+.menulinks {
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+.menulinks a {
+    color: black;
+    display: block;
+    font-family: "Raleway", sans-serif;
+}
+
+.menulinks a:hover {
+    background-color: lightgray;
+}
+
+.dropdown:hover .menulinks {
+    display: block;
+}
+    
+.dropdown:hover .dropbutton {
+    background-color: white;
+}
+
+
+button.accordion { 
+    margin-left: 5.5%;
+    font-family: "Raleway", serif;
+    font-weight: 100;
+    font-size: 20;
+    text-align: center;
+    color: darkslategray;
+    background-color: lightgray;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    width: 89%;
+    transition: 0.4s;
+    margin-bottom: 1%;
+    
+}
+
+button.accordion.active, button.accordion:hover { 
+    background-color: mistyrose;
+}
+
+div.panel {
+    padding: 0 18px;
+    margin-left: 5.5%;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+} 
+
