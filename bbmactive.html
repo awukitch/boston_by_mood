@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+    
+    <head> 
+    <title> Back Bay ~ Active </title>
+    <link rel="stylesheet" href="backbayactive.css"> 
+    </head>
+    
+    <Body> 
+        
+          <div class="dropdown">
+            <button class="dropbutton"> ☰ </button>
+            <div class="menulinks">
+            <a href="bbmhomepage.html"> Home </a>
+            <a href="bbmlocations.html"> Locations </a>
+            <a href="quizzes"> Quizzes </a>
+            <a href="about us"> About Us </a>
+            <a href="sources"> Sources </a>
+                
+            </div>
+        </div>
+        
+    <div class="box"> 
+        <button class="logo">
+        <h1> Boston By Mood </h1> </button>
+    <h2> Back Bay </h2> </div>
+    <h3> Active </h3>
+     
+    
+    <!-- Html code for the accordion folder --> 
+
+        <button class="accordion"> Bikram Yoga </button>
+            <div class="panel">
+                <p> Unite your mind, body, and soul with a healing 90 minute hotroom yoga class at Bikram Yoga. No prior experience necessary! </p>
+            </div>
+        <button class="accordion"> btone Fitness </button>
+            <div class="panel"> 
+                <p> Are you ready to finally achieve that long desired toned body? Attend one of btone Fitness' many classes and work muscles you never knew existed. </p>
+            </div>
+        <button class="accordion"> Healthworks </button>
+            <div class="panel"> 
+                <p> Struggling to commit to routine? Join Healthworks Fitness Center For Women and swtich things up with their wide vareity of equipment and guided classes. </p>
+            </div>
+        <button class="accordion"> Soul Cycle </button>
+            <div class="panel"> 
+                <p> Head over to soul cycle for a 45 minute class and leave up to 700 calories lighter.</p>    
+            </div>
+        <button class="accordion"> Pure Barre </button>
+            <div class="panel">
+                <p> Want to finally acquire the abs of steal you have been dreaming about? One class at pure barre and you'll be feeling slimmer, stronger, and sore for the rest of the week!
+                </p>
+            </div>
+        
+<script> 
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() { 
+        this.classsList.toggle("active"); 
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    }
+}
+</script> 
+
+    
+</Body>
+
+</html>
