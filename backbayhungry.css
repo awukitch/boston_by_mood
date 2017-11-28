@@ -1,3 +1,5 @@
+/** Still working on the overall style, but this is probably the most complete of all the style pages thus far **/
+
 h1 {
     
     font-family: "Raleway", serif;
@@ -23,7 +25,11 @@ h2 {
     
 }
 
-/** food category image buttons **/ 
+/** food category image buttons: Still need to change pictures (lets discuss the issues with this since there have been a 
+few regarding how to add Casey's vsco pictures to the page. For whatever reason it wont attach vsco images, 
+but the pictures are really nice and wuld look amazing on the website. **/ 
+
+/** boxed text within images buttons **/
 
 .boxed, .boxed2, .boxed3, .boxed4, .boxed5, .boxed6 {
     margin-top: 40%;
@@ -159,6 +165,8 @@ h2 {
     transition-duration: 0.4s;
 }
 
+/** Drop button css: same for all pages. It functions now, but I'm hoping to have time to make the menu prettier later on **/
+
 .dropbutton {
     background-color: white;
     border: none;
@@ -195,6 +203,3 @@ h2 {
 .dropdown:hover .dropbutton {
     background-color: white;
 }
-
-    
-
