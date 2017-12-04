@@ -1,0 +1,258 @@
+/** Still working on the overall style, but this is probably the most complete of all the style pages thus far **/
+
+h1 {
+    
+    font-family: "Raleway", serif;
+    font-style: normal;
+    color: darkslategray;
+    margin-left: 5.5%; 
+    text-align: left;
+    font-weight: 100;
+    font-size: 70;
+    font-variant: normal;
+    
+}
+
+h2 {
+    font-family: "Raleway", serif;
+    font-style: italic;
+    color: grey;
+    margin-left: 5.5%;
+    text-align: left;
+    font-weight: 100;
+    font-size: 40;
+    font-variant: normal;
+    
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: gray;
+    color: white;
+	font-family: cursive;
+	font-size: 22;
+    cursor: pointer;
+    padding: 20;
+    width: 90%;
+    text-align: left;
+    border-style:solid ;
+	border-width: 5px;
+	border-color: white;
+    transition: 0.4s;
+}
+
+.prudential{
+	background-image:url(http://lostnewengland.com/wp-content/uploads/2015/09/673_2015.jpg);
+	background-position: 50%, 100%;
+	background-repeat: space;
+}
+
+.group{
+	background-image:url(https://www.smartdestinations.com/img/pt/dest/Bos/att/Bos_Att_Boston_Duck_Tour_Bonus/gallery/Boston-Duck-Tour-Bonus-1.jpg);
+	background-position: 50%, 100%;
+	background-repeat: space;
+}
+
+.boston{
+	background-image:url(https://thumbnails.trvl-media.com/B3G2fnjcjvxSBAgU1BDTi_Bybt8=/768x432/images.trvl-media.com/media/content/shared/images/travelguides/destination/178239/Copley-Square-21023.jpg);
+	background-position: 50%, 100%;
+	background-repeat: space;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: antiquewhite;
+	font-size: 27;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+	border-style:solid ;
+	border-width: 5px;
+	border-color: gray;
+	text-align: left;
+}
+/** food category image buttons: Still need to change pictures (lets discuss the issues with this since there have been a 
+few regarding how to add Casey's vsco pictures to the page. For whatever reason it wont attach vsco images, 
+but the pictures are really nice and wuld look amazing on the website. **/ 
+
+/** boxed text within images buttons **/
+/**
+.boxed, .boxed2, .boxed3, .boxed4, .boxed5, .boxed6 {
+    margin-top: 40%;
+    margin-left: 27%;
+    height: 35;
+    width: 135;
+    background-color: white;
+    opacity: .9;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    font-size: 17px;  
+}
+.buttonbreakfast {
+    background: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/22637522_1886208624725685_3344497063529283584_n.jpg?ig_cache_key=MTYzMDA0NDU1MjUzNjkzNDQxOA%3D%3D.2.c) no-repeat top;
+    opacity: .9;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 17px;
+    font-family: "Raleway", serif;
+    font-style: italic;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 5.5%; 
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+   /*) transition-duration: 0.4s;
+}
+/**
+.buttonlunch {
+    background: url(http://tattebakery.com/wp-content/uploads/2013/10/Q6A2316-450x675.jpg) no-repeat top;
+    opacity: .9; 
+    border: none;   
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+/**
+.buttondinner {
+    background: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c0.135.1080.1080/21576593_281350559034864_7873717351936425984_n.jpg?ig_cache_key=MTYwMjk1Nzg5Nzk2NDYxNTI3MA%3) no-repeat top;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    /*transition-duration: 0.4s;
+}
+
+.buttondessert {
+    background: url(http://tattebakery.com/wp-content/uploads/2013/10/Q6A2524-450x675.jpg) no-repeat center;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left; 
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 5.5%;
+    margin-bottom: 10;
+    margin-left: 5.5%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+/*.buttonvegan {
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/14/73/8e/14738e5cc3eb2f9711ba5a9384a1ebd5.png) no-repeat center;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 5.5%;
+    margin-bottom: 10;
+    margin-left: 5%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  /*  transition-duration: 0.4s;  
+}
+
+.buttonsnacks { 
+    background: url(http://cdn1.bostonmagazine.com/wp-content/uploads/2013/01/fea_food_chinatown9.jpg) no-repeat center;
+    opacity: .8;
+    border: none;
+    color: darkslategrey;
+   
+    padding: 2% 2% 10% 2%;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin-top: 5.5%;
+    margin-bottom: 10;
+    margin-left: 5%;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+ /*   transition-duration: 0.4s;
+}
+**/
+/** Drop button css: same for all pages. It functions now, but I'm hoping to have time to make the menu prettier later on **/
+
+/**.dropbutton {
+    background-color: white;
+    border: none;
+    font-size: 20;
+    cursor: pointer;
+}
+
+.dropdown { 
+    position: relative;
+    display: inline-block;
+}
+
+.menulinks {
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+.menulinks a {
+    color: black;
+    display: block;
+    font-family: "Raleway", sans-serif;
+}
+
+.menulinks a:hover {
+    background-color: lightgray;
+}
+
+.dropdown:hover .menulinks {
+    display: block;
+}
+    
+.dropdown:hover .dropbutton {
+    background-color: white;
+}
+**/
+-->
